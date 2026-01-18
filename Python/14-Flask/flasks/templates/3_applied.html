@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Submitted</title>
+</head>
+<body>
+
+    <h2>Application Submitted</h2>
+
+    {% for key, value in results.items() %}
+        <p><strong>{{ key|capitalize }}:</strong> {{ value }}</p>
+    {% endfor %}
+
+</body>
+</html>
